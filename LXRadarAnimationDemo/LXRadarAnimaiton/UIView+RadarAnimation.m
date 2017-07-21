@@ -11,6 +11,7 @@
 #define LBColor(r, g, b, a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
 static NSString *radarKey = @"radarKey";
 static NSString *radarBorderKey = @"radarBorderKey";
+static NSString *animationLayer = @"animationLayer";
 
 @implementation UIView (RadarAnimation)
 -(void)addRadarAnimation{
@@ -22,6 +23,13 @@ static NSString *radarBorderKey = @"radarBorderKey";
     objc_setAssociatedObject(self, &radarBorderKey, radarBorderColor, OBJC_ASSOCIATION_RETAIN);
 
 }
+-(void)setAnimationLayer:(CALayer *)animationLayer{
+    objc_setAssociatedObject(self, &animationLayer, animationLayer, OBJC_ASSOCIATION_RETAIN);
+
+}
+-(CALayer *)animationLayer{
+     return objc_getAssociatedObject(self, &animationLayer);
+}
 -(UIColor *)radarBorderColor{
     return objc_getAssociatedObject(self, &radarBorderKey);
 }
@@ -31,7 +39,10 @@ static NSString *radarBorderKey = @"radarBorderKey";
 -(UIColor *)radarColor{
     return objc_getAssociatedObject(self, &radarKey);
 }
-
+-(void)removeRadarAnimation{
+    [self.animationLayer removeFromSuperlayer];
+    
+}
 -(void)Animation{
     NSInteger pulsingCount = 3;
     double animationDuration = 2;

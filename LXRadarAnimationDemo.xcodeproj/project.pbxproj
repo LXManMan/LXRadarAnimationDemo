@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9434CD931F21A479000E4187 /* UIView+RadarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9434CD921F21A479000E4187 /* UIView+RadarAnimation.m */; };
 		943966731F20CDFE00AD37CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 943966721F20CDFE00AD37CB /* main.m */; };
 		943966761F20CDFE00AD37CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 943966751F20CDFE00AD37CB /* AppDelegate.m */; };
 		943966791F20CDFE00AD37CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943966781F20CDFE00AD37CB /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		943966811F20CDFE00AD37CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9439667F1F20CDFE00AD37CB /* LaunchScreen.storyboard */; };
 		9439668C1F20CDFE00AD37CB /* LXRadarAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9439668B1F20CDFE00AD37CB /* LXRadarAnimationDemoTests.m */; };
 		943966971F20CDFE00AD37CB /* LXRadarAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943966961F20CDFE00AD37CB /* LXRadarAnimationDemoUITests.m */; };
-		943966A71F20CF5E00AD37CB /* UIView+RadarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 943966A61F20CF5E00AD37CB /* UIView+RadarAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9434CD911F21A479000E4187 /* UIView+RadarAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RadarAnimation.h"; sourceTree = "<group>"; };
+		9434CD921F21A479000E4187 /* UIView+RadarAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RadarAnimation.m"; sourceTree = "<group>"; };
 		9439666E1F20CDFE00AD37CB /* LXRadarAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXRadarAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		943966721F20CDFE00AD37CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		943966741F20CDFE00AD37CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		943966921F20CDFE00AD37CB /* LXRadarAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXRadarAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		943966961F20CDFE00AD37CB /* LXRadarAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXRadarAnimationDemoUITests.m; sourceTree = "<group>"; };
 		943966981F20CDFE00AD37CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		943966A51F20CF5E00AD37CB /* UIView+RadarAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RadarAnimation.h"; sourceTree = "<group>"; };
-		943966A61F20CF5E00AD37CB /* UIView+RadarAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RadarAnimation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +147,8 @@
 		943966A41F20CE1600AD37CB /* LXRadarAnimaiton */ = {
 			isa = PBXGroup;
 			children = (
-				943966A51F20CF5E00AD37CB /* UIView+RadarAnimation.h */,
-				943966A61F20CF5E00AD37CB /* UIView+RadarAnimation.m */,
+				9434CD911F21A479000E4187 /* UIView+RadarAnimation.h */,
+				9434CD921F21A479000E4187 /* UIView+RadarAnimation.m */,
 			);
 			path = LXRadarAnimaiton;
 			sourceTree = "<group>";
@@ -286,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				943966A71F20CF5E00AD37CB /* UIView+RadarAnimation.m in Sources */,
+				9434CD931F21A479000E4187 /* UIView+RadarAnimation.m in Sources */,
 				943966791F20CDFE00AD37CB /* ViewController.m in Sources */,
 				943966761F20CDFE00AD37CB /* AppDelegate.m in Sources */,
 				943966731F20CDFE00AD37CB /* main.m in Sources */,
