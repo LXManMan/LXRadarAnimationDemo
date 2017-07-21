@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		943966731F20CDFE00AD37CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 943966721F20CDFE00AD37CB /* main.m */; };
+		943966761F20CDFE00AD37CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 943966751F20CDFE00AD37CB /* AppDelegate.m */; };
+		943966791F20CDFE00AD37CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 943966781F20CDFE00AD37CB /* ViewController.m */; };
+		9439667C1F20CDFE00AD37CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9439667A1F20CDFE00AD37CB /* Main.storyboard */; };
+		9439667E1F20CDFE00AD37CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9439667D1F20CDFE00AD37CB /* Assets.xcassets */; };
+		943966811F20CDFE00AD37CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9439667F1F20CDFE00AD37CB /* LaunchScreen.storyboard */; };
+		9439668C1F20CDFE00AD37CB /* LXRadarAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9439668B1F20CDFE00AD37CB /* LXRadarAnimationDemoTests.m */; };
+		943966971F20CDFE00AD37CB /* LXRadarAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 943966961F20CDFE00AD37CB /* LXRadarAnimationDemoUITests.m */; };
+		943966A71F20CF5E00AD37CB /* UIView+RadarAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 943966A61F20CF5E00AD37CB /* UIView+RadarAnimation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		943966881F20CDFE00AD37CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943966661F20CDFD00AD37CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9439666D1F20CDFE00AD37CB;
+			remoteInfo = LXRadarAnimationDemo;
+		};
+		943966931F20CDFE00AD37CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 943966661F20CDFD00AD37CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9439666D1F20CDFE00AD37CB;
+			remoteInfo = LXRadarAnimationDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9439666E1F20CDFE00AD37CB /* LXRadarAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXRadarAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		943966721F20CDFE00AD37CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		943966741F20CDFE00AD37CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		943966751F20CDFE00AD37CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		943966771F20CDFE00AD37CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		943966781F20CDFE00AD37CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9439667B1F20CDFE00AD37CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9439667D1F20CDFE00AD37CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		943966801F20CDFE00AD37CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		943966821F20CDFE00AD37CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943966871F20CDFE00AD37CB /* LXRadarAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXRadarAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9439668B1F20CDFE00AD37CB /* LXRadarAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXRadarAnimationDemoTests.m; sourceTree = "<group>"; };
+		9439668D1F20CDFE00AD37CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943966921F20CDFE00AD37CB /* LXRadarAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXRadarAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		943966961F20CDFE00AD37CB /* LXRadarAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXRadarAnimationDemoUITests.m; sourceTree = "<group>"; };
+		943966981F20CDFE00AD37CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943966A51F20CF5E00AD37CB /* UIView+RadarAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RadarAnimation.h"; sourceTree = "<group>"; };
+		943966A61F20CF5E00AD37CB /* UIView+RadarAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RadarAnimation.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9439666B1F20CDFE00AD37CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943966841F20CDFE00AD37CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9439668F1F20CDFE00AD37CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		943966651F20CDFD00AD37CB = {
+			isa = PBXGroup;
+			children = (
+				943966701F20CDFE00AD37CB /* LXRadarAnimationDemo */,
+				9439668A1F20CDFE00AD37CB /* LXRadarAnimationDemoTests */,
+				943966951F20CDFE00AD37CB /* LXRadarAnimationDemoUITests */,
+				9439666F1F20CDFE00AD37CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9439666F1F20CDFE00AD37CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9439666E1F20CDFE00AD37CB /* LXRadarAnimationDemo.app */,
+				943966871F20CDFE00AD37CB /* LXRadarAnimationDemoTests.xctest */,
+				943966921F20CDFE00AD37CB /* LXRadarAnimationDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		943966701F20CDFE00AD37CB /* LXRadarAnimationDemo */ = {
+			isa = PBXGroup;
+			children = (
+				943966741F20CDFE00AD37CB /* AppDelegate.h */,
+				943966751F20CDFE00AD37CB /* AppDelegate.m */,
+				943966771F20CDFE00AD37CB /* ViewController.h */,
+				943966781F20CDFE00AD37CB /* ViewController.m */,
+				943966A41F20CE1600AD37CB /* LXRadarAnimaiton */,
+				9439667A1F20CDFE00AD37CB /* Main.storyboard */,
+				9439667D1F20CDFE00AD37CB /* Assets.xcassets */,
+				9439667F1F20CDFE00AD37CB /* LaunchScreen.storyboard */,
+				943966821F20CDFE00AD37CB /* Info.plist */,
+				943966711F20CDFE00AD37CB /* Supporting Files */,
+			);
+			path = LXRadarAnimationDemo;
+			sourceTree = "<group>";
+		};
+		943966711F20CDFE00AD37CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				943966721F20CDFE00AD37CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9439668A1F20CDFE00AD37CB /* LXRadarAnimationDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9439668B1F20CDFE00AD37CB /* LXRadarAnimationDemoTests.m */,
+				9439668D1F20CDFE00AD37CB /* Info.plist */,
+			);
+			path = LXRadarAnimationDemoTests;
+			sourceTree = "<group>";
+		};
+		943966951F20CDFE00AD37CB /* LXRadarAnimationDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				943966961F20CDFE00AD37CB /* LXRadarAnimationDemoUITests.m */,
+				943966981F20CDFE00AD37CB /* Info.plist */,
+			);
+			path = LXRadarAnimationDemoUITests;
+			sourceTree = "<group>";
+		};
+		943966A41F20CE1600AD37CB /* LXRadarAnimaiton */ = {
+			isa = PBXGroup;
+			children = (
+				943966A51F20CF5E00AD37CB /* UIView+RadarAnimation.h */,
+				943966A61F20CF5E00AD37CB /* UIView+RadarAnimation.m */,
+			);
+			path = LXRadarAnimaiton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9439666D1F20CDFE00AD37CB /* LXRadarAnimationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9439669B1F20CDFE00AD37CB /* Build configuration list for PBXNativeTarget "LXRadarAnimationDemo" */;
+			buildPhases = (
+				9439666A1F20CDFE00AD37CB /* Sources */,
+				9439666B1F20CDFE00AD37CB /* Frameworks */,
+				9439666C1F20CDFE00AD37CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXRadarAnimationDemo;
+			productName = LXRadarAnimationDemo;
+			productReference = 9439666E1F20CDFE00AD37CB /* LXRadarAnimationDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		943966861F20CDFE00AD37CB /* LXRadarAnimationDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9439669E1F20CDFE00AD37CB /* Build configuration list for PBXNativeTarget "LXRadarAnimationDemoTests" */;
+			buildPhases = (
+				943966831F20CDFE00AD37CB /* Sources */,
+				943966841F20CDFE00AD37CB /* Frameworks */,
+				943966851F20CDFE00AD37CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943966891F20CDFE00AD37CB /* PBXTargetDependency */,
+			);
+			name = LXRadarAnimationDemoTests;
+			productName = LXRadarAnimationDemoTests;
+			productReference = 943966871F20CDFE00AD37CB /* LXRadarAnimationDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		943966911F20CDFE00AD37CB /* LXRadarAnimationDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 943966A11F20CDFE00AD37CB /* Build configuration list for PBXNativeTarget "LXRadarAnimationDemoUITests" */;
+			buildPhases = (
+				9439668E1F20CDFE00AD37CB /* Sources */,
+				9439668F1F20CDFE00AD37CB /* Frameworks */,
+				943966901F20CDFE00AD37CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				943966941F20CDFE00AD37CB /* PBXTargetDependency */,
+			);
+			name = LXRadarAnimationDemoUITests;
+			productName = LXRadarAnimationDemoUITests;
+			productReference = 943966921F20CDFE00AD37CB /* LXRadarAnimationDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		943966661F20CDFD00AD37CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "漫漫";
+				TargetAttributes = {
+					9439666D1F20CDFE00AD37CB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					943966861F20CDFE00AD37CB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9439666D1F20CDFE00AD37CB;
+					};
+					943966911F20CDFE00AD37CB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9439666D1F20CDFE00AD37CB;
+					};
+				};
+			};
+			buildConfigurationList = 943966691F20CDFD00AD37CB /* Build configuration list for PBXProject "LXRadarAnimationDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 943966651F20CDFD00AD37CB;
+			productRefGroup = 9439666F1F20CDFE00AD37CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9439666D1F20CDFE00AD37CB /* LXRadarAnimationDemo */,
+				943966861F20CDFE00AD37CB /* LXRadarAnimationDemoTests */,
+				943966911F20CDFE00AD37CB /* LXRadarAnimationDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9439666C1F20CDFE00AD37CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943966811F20CDFE00AD37CB /* LaunchScreen.storyboard in Resources */,
+				9439667E1F20CDFE00AD37CB /* Assets.xcassets in Resources */,
+				9439667C1F20CDFE00AD37CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943966851F20CDFE00AD37CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943966901F20CDFE00AD37CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9439666A1F20CDFE00AD37CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943966A71F20CF5E00AD37CB /* UIView+RadarAnimation.m in Sources */,
+				943966791F20CDFE00AD37CB /* ViewController.m in Sources */,
+				943966761F20CDFE00AD37CB /* AppDelegate.m in Sources */,
+				943966731F20CDFE00AD37CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		943966831F20CDFE00AD37CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9439668C1F20CDFE00AD37CB /* LXRadarAnimationDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9439668E1F20CDFE00AD37CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943966971F20CDFE00AD37CB /* LXRadarAnimationDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		943966891F20CDFE00AD37CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9439666D1F20CDFE00AD37CB /* LXRadarAnimationDemo */;
+			targetProxy = 943966881F20CDFE00AD37CB /* PBXContainerItemProxy */;
+		};
+		943966941F20CDFE00AD37CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9439666D1F20CDFE00AD37CB /* LXRadarAnimationDemo */;
+			targetProxy = 943966931F20CDFE00AD37CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9439667A1F20CDFE00AD37CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9439667B1F20CDFE00AD37CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9439667F1F20CDFE00AD37CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				943966801F20CDFE00AD37CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		943966991F20CDFE00AD37CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9439669A1F20CDFE00AD37CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9439669C1F20CDFE00AD37CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXRadarAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXRadarAnimationDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9439669D1F20CDFE00AD37CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LXRadarAnimationDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXRadarAnimationDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9439669F1F20CDFE00AD37CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXRadarAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXRadarAnimationDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXRadarAnimationDemo.app/LXRadarAnimationDemo";
+			};
+			name = Debug;
+		};
+		943966A01F20CDFE00AD37CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LXRadarAnimationDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXRadarAnimationDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LXRadarAnimationDemo.app/LXRadarAnimationDemo";
+			};
+			name = Release;
+		};
+		943966A21F20CDFE00AD37CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXRadarAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXRadarAnimationDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXRadarAnimationDemo;
+			};
+			name = Debug;
+		};
+		943966A31F20CDFE00AD37CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LXRadarAnimationDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LXRadarAnimationDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LXRadarAnimationDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		943966691F20CDFD00AD37CB /* Build configuration list for PBXProject "LXRadarAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943966991F20CDFE00AD37CB /* Debug */,
+				9439669A1F20CDFE00AD37CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9439669B1F20CDFE00AD37CB /* Build configuration list for PBXNativeTarget "LXRadarAnimationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9439669C1F20CDFE00AD37CB /* Debug */,
+				9439669D1F20CDFE00AD37CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9439669E1F20CDFE00AD37CB /* Build configuration list for PBXNativeTarget "LXRadarAnimationDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9439669F1F20CDFE00AD37CB /* Debug */,
+				943966A01F20CDFE00AD37CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		943966A11F20CDFE00AD37CB /* Build configuration list for PBXNativeTarget "LXRadarAnimationDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				943966A21F20CDFE00AD37CB /* Debug */,
+				943966A31F20CDFE00AD37CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 943966661F20CDFD00AD37CB /* Project object */;
+}
